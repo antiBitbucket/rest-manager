@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+TABLE {
+    width: 1200px; /* Ширина таблицы */
+    border: 1px solid black; /* Рамка вокруг таблицы */
+    border-bottom: none; /* Убираем линию снизу */
+}
+
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого ячеек */
+}
+
+TH {
+    text-align: left; /* Выравнивание по левому краю */
+    background: black; /* Цвет фона */
+    color: white; /* Цвет текста */
+    border: 1px solid white; /* Рамка вокруг ячеек */
+}
+
+TD {
+    border-bottom: 1px solid black; /* Линия снизу */
+}
